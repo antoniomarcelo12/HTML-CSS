@@ -1,0 +1,129 @@
+body, html{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #181818;
+    
+    height: 100%;
+    max-width: 100%;
+    
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 60px;
+    
+    width: 100%;
+    
+    border-bottom: 1px #373737 solid;
+    background-color: #202020;
+}
+
+.menubutton-logo {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+
+.menubutton-logo .menubutton {
+    height: 20px;
+    cursor: pointer;
+}
+
+header .search input {
+    height: 26px;
+    width: 570px;
+    
+    background-color: #121212;
+    border: 1px #303030 solid;
+    border-right: none;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;    
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.button-search {
+    height: 30px;
+    width: 60px;
+    background-color: #323232;
+    
+    border: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.button-search img {
+    height: 13px;
+}
+
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+/* 
+aside {
+    width: 100px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    
+} */
+
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-between;
+    
+    height: 100%;
+    width: 93%;
+    /* flex-basis: 93%; */
+    /* flex-basis: 98%; */
+    /* max-width: 1184px; */
+    /* max-width: 2000px; */
+    
+    margin-top:90px;
+    margin-left: 100px;
+}
+
+.video-section .video {
+    height: 500px;
+    width: 345px;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.video-section .video .video-description {
+    background-color: red;
+    height: 150px;
+    width: 343px;
+    margin-top: 10px;
+    padding: 0;
+
+    
+}
+

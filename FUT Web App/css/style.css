@@ -1,0 +1,269 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-image: url("img/Fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+
+
+/* Primeiro header */
+.header_black {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 48px;
+    width: 100%;
+    background-color: black;
+
+    position: fixed; 
+    z-index: 2;
+    
+}
+
+header .logoFIFA {
+    height: 28px;
+    margin-left: 12px;
+}
+
+header .logoEASPORTS {
+    height: 25px;
+    /* margin-right: 15px; */
+}
+
+/* Segundo header */
+
+.header_nav {
+    background-color: #201E20;
+    height: 64px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    position: fixed;
+    z-index: 2;
+    top: 40px;
+    
+
+}
+
+.header_nav h3 {
+    margin-left: -390px;
+    font-size: 40px;
+
+    padding-right: 1000px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* Parte das moedas */
+
+.UTdata {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+hr {
+    margin: 0 4px 0 10px;
+    border-color: #275261;
+    height: 100%;
+}
+
+.coins {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.UTdata .coins img {
+    height: 16px;
+}
+
+.fundation {
+    height: 100%;
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.fundation span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.fundation p {
+    margin: 0 0 0 3px;
+    padding: 0;
+}
+
+.fundation img {
+    height: 40px;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.card_visualization img {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+
+}
+
+aside {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4.5rem 0 0 0;
+    width: 6.5rem;
+    /* width: 110px; */
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+
+    /* margin-top: -64px; */
+    background-color: #201E20;
+
+}
+
+aside .nav .UTnav img {
+    height: 20px;
+    
+}
+
+.imgFUT21 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgFUT21 img {
+    height: 68px;
+    /* margin-top:-65px; */
+    margin-left: 15px;
+    /* margin-bottom: 20px; */
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    color: #FFF;
+}
+.UTnav {
+    margin-top:50px;
+}
+
+.UTnav div {
+    margin: -10px 0 30px 0;
+
+    font-size: 0.9em;
+
+}
+
+.UTnav div:first-child {
+    margin: -30px 0 30px 0;
+}
+
+.elenco img {
+    height: 9px;
+}
+
+/* CONTENT */
+
+.content {
+    margin-top: 180px;
+    margin-left: 200px;
+    height: 200vh;
+    width: 888px;
+    background-color: #00000000;
+    position: absolute;
+
+    align-self: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.card-objetivos {
+    height: 340px;
+    width: 435px;
+    background-color: blue;
+}
+
+.card-DME {
+    height: 340px;
+    width: 435px;
+    background-color: green;
+}
+
+.card-TOTW {
+    height: 359px;
+    width: 888px;
+    background-color: yellow;
+}
+
+.card-transferencias {
+    height: 340px;
+    width: 435px;
+    background-color: pink;
+}
+
+.card-estadio {
+    height: 340px;
+    width: 435px;
+    background-color:turquoise;
+}
+
+.card-elenco_ativo {
+    height: 359px;
+    width: 888px;
+    background-color:white;
+}
+
+.card-wl {
+    height: 178px;
+    width: 888px;
+    background-color:saddlebrown;
+
+}
+
+.option_button {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.option_button img {
+    height: 30px;
+}
+
